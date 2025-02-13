@@ -1,0 +1,32 @@
+/my-nextjs-auth-app
+│
+├── /src
+│   ├── /components
+│   │   ├── LoginForm.js
+│   │   ├── RegisterForm.js
+│   ├── /context
+│   │   ├── AuthContext.js
+│   ├── /lib
+│   │   ├── db.js
+│   │   ├── auth.js
+│   ├── /middleware
+│   │   ├── authMiddleware.js
+│   ├── /models
+│   │   ├── User.js
+│   ├── /pages
+│   │   ├── /api
+│   │   │   ├── /auth
+│   │   │   │   ├── login.js
+│   │   │   │   ├── register.js
+│   │   │   │   └── logout.js
+│   │   ├── /protected
+│   │   │   ├── index.js
+│   │   ├── index.js
+│   │   ├── login.js
+│   │   └── register.js
+│   ├── /styles
+│   │   ├── globals.css
+├── .env.local
+├── next.config.js
+├── package.json
+└── README.md
